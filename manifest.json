@@ -2,10 +2,10 @@
   "description": "turn dark mode on.",
   "manifest_version": 2,
   "name": "mmdmode",
-  "version": "1.4",
+  "version": "1.0",
   "homepage_url": "https://github.com/heygema/mmdmode",
   "icons": {
-    "48": "icons/fckw3-48.png"
+    "48": "icons/icon-48.png"
   },
 
   "content_scripts": [
