@@ -1,0 +1,17 @@
+{
+  "description": "turn dark mode on.",
+  "manifest_version": 2,
+  "name": "mmdmode",
+  "version": "1.4",
+  "homepage_url": "https://github.com/heygema/mmdmode",
+  "icons": {
+    "48": "icons/fckw3-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.menjadimanusia.id/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
